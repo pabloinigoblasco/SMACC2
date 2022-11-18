@@ -1,8 +1,7 @@
 name: "Doxygen Deployment"
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '43 3 * * *'
+  push: [foxy]
 
 jobs:
   deploy-doc:
