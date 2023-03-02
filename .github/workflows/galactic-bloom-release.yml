@@ -6,7 +6,6 @@ on:
        - package.xml
        - '*/package.xml'
     branches: galactic
-  workflow_dispatch:
 
 jobs:
   bloom-release:
